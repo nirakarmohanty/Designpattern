@@ -2,7 +2,7 @@ package com.csc.designpattern.creational;
 
 /**
  * This is a tester class for checking multiple instance creation
- * 
+ * In this design pattern is used to return Single Object each time whenever its getting called
  * @author nmohanty
  * 
  */
