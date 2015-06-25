@@ -4,7 +4,7 @@ package com.csc.designpattern.creational;
  * @author nmohanty
  *
  */
-public interface Car {
+public interface Car { 
 
 	public void getCarName();
 }
