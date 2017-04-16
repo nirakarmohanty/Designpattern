@@ -1,8 +1,7 @@
-package com.csc.designpattern.creational;
+package com.nirakar.design.pattern.creational.factory;
 
 public class Mahindra implements Car {
 
-	@Override
 	public void getCarName() {
 		System.out.println("Hi this is Mahindra Car");
 		

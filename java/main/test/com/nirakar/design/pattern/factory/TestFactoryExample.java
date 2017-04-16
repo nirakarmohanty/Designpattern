@@ -1,4 +1,7 @@
-package com.csc.designpattern.creational;
+package com.nirakar.design.pattern.factory;
+
+import com.nirakar.design.pattern.creational.factory.Car;
+import com.nirakar.design.pattern.creational.factory.CarFactory;
 
 public class TestFactoryExample {
 

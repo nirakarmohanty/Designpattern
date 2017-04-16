@@ -1,4 +1,4 @@
-package com.csc.designpattern.creational;
+package com.nirakar.design.pattern.creational.factory;
 
 /**Interface Car
  * @author nmohanty

@@ -1,4 +1,4 @@
-package com.csc.designpattern.creational;
+package com.nirakar.design.pattern.creational.factory;
 
 /**
  * This is a factory class which will return the different class name at run
@@ -32,4 +32,4 @@ public class CarFactory {
 			return null;
 	}
 
-} 
+}

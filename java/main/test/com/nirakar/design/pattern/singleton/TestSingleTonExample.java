@@ -1,4 +1,6 @@
-package com.csc.designpattern.creational;
+package com.nirakar.design.pattern.singleton;
+
+import com.nirakar.design.pattern.creational.singleton.SingleTonEx;
 
 /**
  * This is a tester class for checking multiple instance creation
