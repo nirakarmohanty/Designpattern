@@ -1,4 +1,4 @@
-package com.nirakar.design.pattern.creational.factory;
+package com.nirakar.creational.factory;
 
 public class Hundai implements Car{
 

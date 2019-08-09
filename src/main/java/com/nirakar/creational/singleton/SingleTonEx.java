@@ -1,7 +1,7 @@
 /**
  * Example of Singleton Design Pattern
  */
-package com.nirakar.design.pattern.creational.singleton;
+package com.nirakar.creational.singleton;
 
 /**
  * THis class describes Singleton Design pattern

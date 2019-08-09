@@ -1,4 +1,4 @@
-package com.nirakar.design.pattern.creational.builder;
+package com.nirakar.creational.builder;
 
 public class PizzaBuilder {
 
@@ -6,6 +6,7 @@ public class PizzaBuilder {
 	String size;// 4 or 8 or 12
 
 	boolean extraCheese;
+
 	public boolean isExtraCheese() {
 		return extraCheese;
 	}
@@ -20,12 +21,12 @@ public class PizzaBuilder {
 
 	boolean extraVegetables;
 	boolean extraChiken;
-	
-	PizzaBuilder(String type,String size){
-		this.type=type;
-		this.size=size;
+
+	PizzaBuilder(String type, String size) {
+		this.type = type;
+		this.size = size;
 	}
-	
+
 	public Pizza build() {
 		return new Pizza(this);
 	}

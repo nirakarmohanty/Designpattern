@@ -1,4 +1,4 @@
-package com.nirakar.design.pattern.creational.factory;
+package com.nirakar.creational.factory;
 
 /**
  * This is a factory class which will return the different class name at run

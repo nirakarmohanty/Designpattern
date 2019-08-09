@@ -1,4 +1,4 @@
-package com.nirakar.design.pattern.creational.prototype;
+package com.nirakar.creational.prototype;
 
 import java.util.List;
 

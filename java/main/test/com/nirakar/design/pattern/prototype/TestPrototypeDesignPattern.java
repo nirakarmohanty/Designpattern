@@ -1,6 +1,6 @@
 package com.nirakar.design.pattern.prototype;
 
-import com.nirakar.design.pattern.creational.prototype.PrototypeDesignPattern;
+import com.nirakar.creational.prototype.PrototypeDesignPattern;
 
 public class TestPrototypeDesignPattern {
 

@@ -1,7 +1,7 @@
 package com.nirakar.design.pattern.factory;
 
-import com.nirakar.design.pattern.creational.factory.Car;
-import com.nirakar.design.pattern.creational.factory.CarFactory;
+import com.nirakar.creational.factory.Car;
+import com.nirakar.creational.factory.CarFactory;
 
 public class TestFactoryExample {
 

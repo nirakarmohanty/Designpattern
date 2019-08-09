@@ -2,6 +2,8 @@ package com.nirakar.design.pattern.creational.prototype;
 
 import java.util.Arrays;
 
+import com.nirakar.creational.prototype.ProgramExpertise;
+
 public class TestProgramExpertise {
 	
 	public static void main(String[] args) throws CloneNotSupportedException{

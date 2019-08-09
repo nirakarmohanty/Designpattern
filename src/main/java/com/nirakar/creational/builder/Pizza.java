@@ -1,4 +1,4 @@
-package com.nirakar.design.pattern.creational.builder;
+package com.nirakar.creational.builder;
 
 public class Pizza {
 	// Mandatory

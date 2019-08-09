@@ -1,4 +1,4 @@
-package com.nirakar.design.pattern.creational.prototype;
+package com.nirakar.creational.prototype;
 
 /**
  * Prototype design pattern is nothing but its cloning of Object. THis is
