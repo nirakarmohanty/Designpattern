@@ -1,0 +1,4 @@
+This is a kind of Structural design pattern
+It basically segregates Abstraction from Its Implementation.
+In other word there are 2 parts- One is Abstraction and other is Implementation.
+So the client uses Abstraction without bothering about the implementation.

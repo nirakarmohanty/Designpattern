@@ -1,0 +1,3 @@
+Its type of Structural design pattern.
+Facade Design pattern hides the complexity of the system and provides an interfaces to client using which client can
+access the system.
