@@ -1,6 +1,6 @@
 package com.nirakar.design.pattern.singleton;
 
-import com.nirakar.creational.singleton.SingleTonEx;
+import com.nirakar.creational.singleton.SingleTonExample;
 
 /**
  * This is a tester class for checking multiple instance creation
@@ -14,12 +14,12 @@ public class TestSingleTonExample {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println(SingleTonEx.getInstance());
-		System.out.println(SingleTonEx.getInstance());
-		System.out.println(SingleTonEx.getInstance());
-		System.out.println(SingleTonEx.getInstance());
-		System.out.println(SingleTonEx.getInstance());
-		System.out.println(SingleTonEx.getInstance());
+		System.out.println(SingleTonExample.getInstance());
+		System.out.println(SingleTonExample.getInstance());
+		System.out.println(SingleTonExample.getInstance());
+		System.out.println(SingleTonExample.getInstance());
+		System.out.println(SingleTonExample.getInstance());
+		System.out.println(SingleTonExample.getInstance());
 
 	}
 

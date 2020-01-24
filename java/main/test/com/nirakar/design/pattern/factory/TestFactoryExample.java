@@ -5,7 +5,7 @@ import com.nirakar.creational.factory.CarFactory;
 
 public class TestFactoryExample {
 
-	/** This is a tester class to test Factory design pattern 
+	/** This is a test class to test Factory design pattern 
 	 * @param args
 	 */
 	public static void main(String[] args) {
