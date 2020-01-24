@@ -9,17 +9,17 @@ package com.nirakar.creational.singleton;
  * @author NIRAKAR
  * 
  */
-public class SingleTonEx {
+public class SingleTonExample {
 
 	/**
 	 * Static initialization of SingleTon Object
 	 */
-	private static SingleTonEx singletonObject = new SingleTonEx();
+	private static SingleTonExample singletonObject = new SingleTonExample();
 
 	/**
 	 * private Constructor
 	 */
-	private SingleTonEx() {
+	private SingleTonExample() {
 
 	}
 
@@ -28,8 +28,8 @@ public class SingleTonEx {
 	 * 
 	 * @return
 	 */
-	public static SingleTonEx getInstance() {
-		synchronized (SingleTonEx.class) {
+	public static SingleTonExample getInstance() {
+		synchronized (SingleTonExample.class) {
 			synchronized (singletonObject) {
 				return singletonObject;
 			}

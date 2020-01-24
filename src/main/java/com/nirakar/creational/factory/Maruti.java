@@ -6,7 +6,4 @@ public class Maruti implements Car {
 		System.out.println("This is Maruthi Car");
 	}
 
-
-
-
-} 
+}

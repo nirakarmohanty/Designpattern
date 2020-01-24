@@ -1,10 +1,12 @@
 package com.nirakar.creational.factory;
 
-/**Interface Car
+/**
+ * Interface Car
+ * 
  * @author nmohanty
  *
  */
-public interface Car { 
+public interface Car {
 
 	public void getCarName();
 }

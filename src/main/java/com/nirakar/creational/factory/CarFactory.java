@@ -10,18 +10,13 @@ package com.nirakar.creational.factory;
 public class CarFactory {
 
 	private static CarFactory carFactoryObject = new CarFactory();
-
-	/**
-	 * Singleton implementation
-	 * 
-	 * @return
-	 */
+	private CarFactory() {}
+	
 	public static CarFactory getInstance() {
 		return carFactoryObject;
 	}
 
 	public Car getInstace(String carName) {
-
 		if (carName.equalsIgnoreCase("maruthi"))
 			return new Maruti();
 		if (carName.equalsIgnoreCase("mahindra"))
