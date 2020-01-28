@@ -7,7 +7,7 @@ public class CarBuilder {
 	private String review;
 	private String isManual;
 	private String type;
-	private String newOrOld;
+	private boolean newOrOld;
 
 	public CarBuilder setBrand(String brand) {
 		this.brand = brand;
@@ -39,7 +39,7 @@ public class CarBuilder {
 		return this;
 	}
 
-	public CarBuilder setNewOrOld(String newOrOld) {
+	public CarBuilder setNewOrOld(boolean newOrOld) {
 		this.newOrOld = newOrOld;
 		return this;
 	}

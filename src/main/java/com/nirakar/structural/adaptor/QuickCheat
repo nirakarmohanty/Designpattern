@@ -1,1 +1,7 @@
-Adapter Design patterns is used to adopt two different object of Two Interfaces
+Description-
+1. Its a structural design pattern ( ABCDFFP )
+2. Adapter Design patterns is used to adopt two different object of Two Interfaces
+3. Lets describe with an Example .
+	1. Hyundai<<Interface>> a brand Name. It has GrandI10<<Implemented Class>> is a version of the car . Which implements Hyundai Interface
+	2. Maruthi<<Interface>> also a brand name. It has Swift<<Implemented Class>> is a version of Maruthi Type.
+	3. Now Let say , Hyundai and Maruti decided that they want to use Force Motor Engine and how we will integrate that new engine to their production

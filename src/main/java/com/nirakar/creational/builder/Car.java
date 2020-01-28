@@ -7,9 +7,10 @@ public class Car {
 	private String review;// Great,Average,Lower
 	private String isManual;// Manula or Automatic
 	private String type;// HatchBack, Sedan, SUV
-	private String newOrOld;
+	private boolean newOrOld;
 
-	public Car(String brand, String colour, String year, String review, String isManual, String type, String newOrOld) {
+	public Car(String brand, String colour, String year, String review, String isManual, String type,
+			boolean newOrOld) {
 		super();
 		this.brand = brand;
 		this.colour = colour;
@@ -20,9 +21,10 @@ public class Car {
 		this.newOrOld = newOrOld;
 	}
 
+	@Override
 	public String toString() {
 		return "Car Object - Brand " + this.brand + " Colour " + this.colour + " Year of Manufacture " + this.year
-				+ " user Review " + this.review + "Manula or Automatic " + this.isManual + "Type of car is " + this.type
-				+ "New or Old " + this.newOrOld;
+				+ " user Review " + this.review + " Manual or Automatic " + this.isManual + " Type of car is "
+				+ this.type + "  New or Old " + this.newOrOld;
 	}
 }

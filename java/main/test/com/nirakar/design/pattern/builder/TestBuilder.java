@@ -11,6 +11,10 @@ public class TestBuilder {
 
 		Car c1 = new CarBuilder().setBrand("Hyundai").setColour("Red").setReview("Very Good").setType("SUV").build();
 		System.out.println(c1);
+
+		Car c2 = new CarBuilder().setBrand("Hyundai").setColour("Red").setReview("Very Good").setType("SUV")
+				.setNewOrOld(true).build();
+		System.out.println(c2);
 	}
 
 }
