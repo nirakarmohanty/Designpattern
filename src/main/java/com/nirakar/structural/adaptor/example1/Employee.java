@@ -1,4 +1,4 @@
-package com.nirakar.structural.adaptor;
+package com.nirakar.structural.adaptor.example1;
 
 public class Employee {
 	private String name;

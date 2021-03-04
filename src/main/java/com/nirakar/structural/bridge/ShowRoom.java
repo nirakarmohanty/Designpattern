@@ -7,5 +7,6 @@ public abstract class ShowRoom {
 	protected ShowRoom(Car vehicle) {
 		this.vechicle = vehicle;
 	}
+
 	public abstract void cost();
 }

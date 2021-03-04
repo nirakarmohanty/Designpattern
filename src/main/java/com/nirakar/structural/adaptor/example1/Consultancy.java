@@ -1,4 +1,4 @@
-package com.nirakar.structural.adaptor;
+package com.nirakar.structural.adaptor.example1;
 
 import java.util.List;
 
