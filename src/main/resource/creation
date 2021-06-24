@@ -1,0 +1,16 @@
+1. Creation  Object / Maintaining Object 
+ - Object creation 
+ Singleton - A singleObject ( Lazy /Eager ) 
+ Factory - Collections -- return - Creating 
+ Builder - as per your choice - 
+ Prototype - clone()
+ Abstract Factory - Optional or self study 
+ ========================================
+ 
+ Q1. Real time implementation; 
+ Q2. We wants to create n times object - what implementation ? 
+ 		// Object Pool [3] {o1,o2,o3} 
+ 		// array[0]array[1]array[2] array[3]
+ Q3. Lazy and Eager Initialization;
+ Q4. Best way of implementation ?
+ 
